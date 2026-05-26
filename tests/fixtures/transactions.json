@@ -1,0 +1,72 @@
+[
+  {
+    "id": "txn-1",
+    "txn_date": "2026-05-20",
+    "amount": 47.50,
+    "description": "AWS web services",
+    "vendor_name": "AWS",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "imported"
+  },
+  {
+    "id": "txn-2",
+    "txn_date": "2026-05-20",
+    "amount": 12.99,
+    "description": "Github subscription",
+    "vendor_name": "GitHub",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "imported"
+  },
+  {
+    "id": "txn-3",
+    "txn_date": "2026-05-21",
+    "amount": 32.45,
+    "description": "Chevron #4421",
+    "vendor_name": "Chevron",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "imported"
+  },
+  {
+    "id": "txn-4",
+    "txn_date": "2026-05-22",
+    "amount": 8.75,
+    "description": "Starbucks coffee",
+    "vendor_name": "Starbucks",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "imported"
+  },
+  {
+    "id": "txn-5",
+    "txn_date": "2026-05-23",
+    "amount": 750.00,
+    "description": "Quarterly bookkeeping service",
+    "vendor_name": "Socair Advisors",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "manual"
+  },
+  {
+    "id": "txn-6",
+    "txn_date": "2026-05-24",
+    "amount": 4200.00,
+    "description": "Some payment to an unknown vendor",
+    "vendor_name": "Mystery Vendor LLC",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "imported"
+  },
+  {
+    "id": "txn-7",
+    "txn_date": "2026-05-24",
+    "amount": 32.45,
+    "description": "Chevron #4421",
+    "vendor_name": "Chevron",
+    "current_account_id": null,
+    "current_account_name": null,
+    "source": "imported"
+  }
+]

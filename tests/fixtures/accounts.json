@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Cloud Services",
+    "account_type": "Expense",
+    "account_sub_type": "OfficeGeneralAdministrativeExpenses",
+    "fully_qualified_name": "Cloud Services"
+  },
+  {
+    "id": "2",
+    "name": "Software Subscriptions",
+    "account_type": "Expense",
+    "account_sub_type": "OfficeGeneralAdministrativeExpenses",
+    "fully_qualified_name": "Software Subscriptions"
+  },
+  {
+    "id": "3",
+    "name": "Meals & Entertainment",
+    "account_type": "Expense",
+    "account_sub_type": "EntertainmentMeals",
+    "fully_qualified_name": "Meals & Entertainment"
+  },
+  {
+    "id": "4",
+    "name": "Travel",
+    "account_type": "Expense",
+    "account_sub_type": "Travel",
+    "fully_qualified_name": "Travel"
+  },
+  {
+    "id": "5",
+    "name": "Fuel",
+    "account_type": "Expense",
+    "account_sub_type": "Auto",
+    "fully_qualified_name": "Fuel"
+  },
+  {
+    "id": "6",
+    "name": "Office Supplies",
+    "account_type": "Expense",
+    "account_sub_type": "SuppliesMaterials",
+    "fully_qualified_name": "Office Supplies"
+  },
+  {
+    "id": "7",
+    "name": "Bookkeeping",
+    "account_type": "Expense",
+    "account_sub_type": "LegalProfessionalFees",
+    "fully_qualified_name": "Bookkeeping"
+  },
+  {
+    "id": "99",
+    "name": "Some Unique Account",
+    "account_type": "Expense",
+    "account_sub_type": "Other",
+    "fully_qualified_name": "Some Unique Account"
+  }
+]

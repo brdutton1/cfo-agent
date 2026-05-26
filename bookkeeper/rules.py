@@ -6,8 +6,8 @@ First match wins. Rules are tried in order, so put more specific rules before
 broader ones.
 
 TO ADD YOUR OWN RULES: Append a VendorRule to RULES below.
-  pattern   — substring (str) or compiled regex matched against vendor_name + description
-  account   — exact QBO account name (must match your chart of accounts)
+  pattern    — substring (str) or compiled regex matched against vendor_name + description
+  account    — exact account name (must match an account in your chart of accounts)
   confidence — 1.0 for rules you're certain about; lower if the pattern is ambiguous
 """
 

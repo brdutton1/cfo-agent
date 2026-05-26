@@ -4,9 +4,13 @@ Claude-based categorizer for transactions that rules couldn't confidently handle
 Batches up to 10 transactions per API call to reduce cost and latency.
 Passes the full chart of accounts as context so Claude picks from real accounts.
 Uses structured JSON output via tool use for reliable parsing.
-"""
 
-import json
+NOTE — future AI-provider seam:
+    This module imports the `anthropic` SDK directly. If we ever want to swap
+    Claude for a different model provider (OpenAI, local Llama, etc.) we will
+    need to extract a second protocol (`Categorizer`?) the way we did for
+    BookkeepingProvider. Not blocking today; flagged for later.
+"""
 
 import anthropic
 
@@ -16,7 +20,7 @@ _BATCH_SIZE = 10
 
 _TOOL = {
     "name": "categorize_transactions",
-    "description": "Assign a QBO account category and confidence score to each transaction.",
+    "description": "Assign an account category and confidence score to each transaction.",
     "input_schema": {
         "type": "object",
         "properties": {
@@ -26,7 +30,7 @@ _TOOL = {
                     "type": "object",
                     "properties": {
                         "index": {"type": "integer", "description": "0-based index matching the input list"},
-                        "account_name": {"type": "string", "description": "Exact account name from the provided list, or null if truly unknown"},
+                        "account_name": {"type": "string", "description": "Exact name from the provided chart of accounts, or null if truly unknown"},
                         "confidence": {"type": "number", "description": "0.0–1.0 confidence in this categorization"},
                         "reason": {"type": "string", "description": "One sentence explaining the categorization"},
                     },
